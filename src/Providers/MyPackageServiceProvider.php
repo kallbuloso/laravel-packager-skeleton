@@ -1,6 +1,6 @@
 <?php
 
-namespace :uc:vendor\:uc:package;
+namespace :uc:vendor\:uc:package\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -34,7 +34,7 @@ class :uc:packageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../../config/:lc:package.php', ':lc:package');
+        $this->mergeConfigFrom(__DIR__.'/../../config/:lc:package.php', ':uc:vendor/:lc:package');
 
         // Register the service the package provides.
         $this->app->singleton(':lc:package', function ($app) {
@@ -72,12 +72,12 @@ class :uc:packageServiceProvider extends ServiceProvider
         // Publishing assets.
         $this->publishes([
             __DIR__.'/../Resources/assets' => public_path('vendor/:lc:vendor'),
-        ], ':lc:package.views');
+        ], ':lc:package.assets');
 
         // Publishing the translation files.
-        /*$this->publishes([
+        $this->publishes([
             __DIR__.'/../Resources/lang' => resource_path('lang/vendor/:lc:vendor'),
-        ], ':lc:package.views');*/
+        ], ':lc:package.lang');
 
     }
 }

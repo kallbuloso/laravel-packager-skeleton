@@ -18,5 +18,5 @@ Route::get('/sample', function () {
 
 Route::prefix(':lc:package')->group(function() {
     // Route::group(['middleware' => ['auth', 'verified'], 'prefix' => ':lc:package'], function() {
-    Route::get('/', [:uc:packageController::class, 'index'])->name(':lc:package');
+    // Route::get('/', [:uc:packageController::class, 'index'])->name(':lc:package');
 });
