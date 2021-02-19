@@ -44,14 +44,14 @@ If you discover any security related issues, please email :author_email instead 
 
 :license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/:lc:vendor/:lc:package.svg?style=flat-square
+[ico-version]:   https://img.shields.io/packagist/v/:lc:vendor/:lc:package.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/:lc:vendor/:lc:package.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:lc:vendor/:lc:package/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-travis]:    https://img.shields.io/travis/:lc:vendor/:lc:package/master.svg?style=flat-square
+[ico-styleci]:   https://styleci.io/repos/12345678/shield
 
 [link-packagist]: https://packagist.org/packages/:lc:vendor/:lc:package
 [link-downloads]: https://packagist.org/packages/:lc:vendor/:lc:package
-[link-travis]: https://travis-ci.org/:lc:vendor/:lc:package
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/:lc:vendor
-[link-contributors]: ../../contributors
+[link-travis]:    https://travis-ci.org/:lc:vendor/:lc:package
+[link-styleci]:   https://styleci.io/repos/12345678
+[link-author]:    https://github.com/:lc:vendor
+[link-contributors]: contributing.md
